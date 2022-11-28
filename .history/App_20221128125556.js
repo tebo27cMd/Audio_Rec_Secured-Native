@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Rec from './recorder';
+import 
 
 const Stack = createNativeStackNavigator();
 
@@ -9,7 +9,7 @@ export default function App() {
   return(
     <NavigationContainer>
            <Stack.Navigator>
-           <Stack.Screen name="recorder" component={ Rec} />
+
            </Stack.Navigator>
     </NavigationContainer>
   )
